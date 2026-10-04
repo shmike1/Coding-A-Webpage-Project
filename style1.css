@@ -309,3 +309,11 @@ cite {
     font-family: 'Anton';
     src: url('fonts/Anton/Anton-Regular.ttf') format(truetype);
 }
+
+@media (min-width: 1080px) {
+    /* Locks to a fixed width once the screen exceeds 1000px */
+    body{
+        max-width: 1080px;    
+    margin: 0 auto; 
+    }
+}
